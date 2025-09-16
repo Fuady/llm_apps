@@ -1,1 +1,10 @@
-
+streamlit
+requests
+beautifulsoup4
+pandas
+nltk
+scikit-learn
+wordcloud
+matplotlib
+seaborn
+tensorflow
