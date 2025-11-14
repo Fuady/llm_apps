@@ -1,4 +1,4 @@
-# 🤖 Ollama Streamlit Chatbot
+# Ollama Streamlit Chatbot
 
 A powerful Streamlit-based chat interface for interacting with local Ollama models. Features both free chat and RAG (Retrieval-Augmented Generation) capabilities with semantic search.
 
@@ -6,17 +6,17 @@ A powerful Streamlit-based chat interface for interacting with local Ollama mode
 ![Streamlit](https://img.shields.io/badge/streamlit-1.28+-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## ✨ Features
+## Features
 
-- 🗨️ **Free Chat Mode**: Direct conversation with Ollama models
-- 📚 **RAG Mode**: Context-aware responses using document retrieval
-- 🔍 **Semantic Search**: Uses sentence transformers for intelligent document matching
-- 🧠 **Memory Management**: CPU/GPU control for systems with limited VRAM
-- 📊 **Model Selection**: Easy switching between installed Ollama models
-- 💾 **Chat History**: Persistent conversation tracking
-- 🎨 **Clean UI**: Intuitive Streamlit interface with expandable source documents
+- **Free Chat Mode**: Direct conversation with Ollama models
+- **RAG Mode**: Context-aware responses using document retrieval
+- **Semantic Search**: Uses sentence transformers for intelligent document matching
+- **Memory Management**: CPU/GPU control for systems with limited VRAM
+- **Model Selection**: Easy switching between installed Ollama models
+- **Chat History**: Persistent conversation tracking
+- **Clean UI**: Intuitive Streamlit interface with expandable source documents
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - [Ollama](https://ollama.ai/) installed and running locally
