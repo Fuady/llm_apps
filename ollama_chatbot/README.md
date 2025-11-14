@@ -119,7 +119,7 @@ If you see: `model requires more system memory than is currently available`
    ```
 
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Technologies Used
 
@@ -138,21 +138,8 @@ If you see: `model requires more system memory than is currently available`
 5. Retrieved documents are included in the prompt context
 6. Ollama generates a response based on the context
 
-## 📊 System Requirements
 
-### Minimum
-- **CPU**: 2+ cores
-- **RAM**: 8GB
-- **Disk**: 2GB free space
-- **GPU**: Optional (can run on CPU)
-
-### Recommended
-- **CPU**: 4+ cores
-- **RAM**: 16GB
-- **Disk**: 10GB free space
-- **GPU**: 4GB+ VRAM (NVIDIA/AMD)
-
-## 🐛 Common Issues
+## Common Issues
 
 ### "Error fetching models"
 **Solution**: Make sure Ollama is running
@@ -178,30 +165,17 @@ ollama pull llama2
 - Use smaller models
 - Reduce GPU layers
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Ollama](https://ollama.ai/) for local LLM inference
 - [Streamlit](https://streamlit.io/) for the web framework
 - [Sentence Transformers](https://www.sbert.net/) for embeddings
 - [Alexey Grigorev](https://github.com/alexeygrigorev) for the sample documents
-
-## 📧 Contact
-
-For questions or support, please open an issue on GitHub.
 
 ---
 
