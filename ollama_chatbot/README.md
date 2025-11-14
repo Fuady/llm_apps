@@ -89,7 +89,7 @@ The app will open in your browser at `http://localhost:8501`
 4. Ask questions - the AI will answer based on the loaded documents
 5. Expand "View Source Documents" to see which documents were used
 
-## ⚙️ Configuration
+## Configuration
 
 ### Memory Settings
 
@@ -108,25 +108,16 @@ The app will open in your browser at `http://localhost:8501`
 If you see: `model requires more system memory than is currently available`
 
 **Solutions:**
-1. ✅ Check "Force CPU Mode" (easiest)
-2. ✅ Use a smaller model (`tinyllama`, `phi`)
-3. ✅ Reduce GPU layers to 10-20
-4. ✅ Close other GPU applications
-5. ✅ Set environment variable:
+1. Check "Force CPU Mode" (easiest)
+2. Use a smaller model (`tinyllama`, `phi`)
+3. Reduce GPU layers to 10-20
+4. Close other GPU applications
+5. Set environment variable:
    ```bash
    export OLLAMA_NUM_GPU=0
    ollama serve
    ```
 
-## 📁 Project Structure
-
-```
-ollama-streamlit-chatbot/
-├── app.py                 # Main application file
-├── requirements.txt       # Python dependencies
-├── README.md             # This file
-└── .gitignore            # Git ignore rules
-```
 
 ## 🔧 Technical Details
 
