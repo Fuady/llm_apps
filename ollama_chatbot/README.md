@@ -52,7 +52,7 @@ ollama pull llama2:13b   # ~7.3GB
 ollama pull codellama    # ~3.8GB
 ```
 
-## 🎯 Usage
+## Usage
 
 ### Start Ollama Server
 
@@ -65,12 +65,12 @@ Leave this running in a terminal.
 ### Run the Streamlit App
 
 ```bash
-streamlit run app.py
+python -m streamlit run .\ollama_chatbot.py
 ```
 
 The app will open in your browser at `http://localhost:8501`
 
-## 🎮 Using the App
+## Using the App
 
 ### Free Chat Mode
 
