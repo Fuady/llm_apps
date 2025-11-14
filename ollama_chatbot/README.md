@@ -22,40 +22,19 @@ A powerful Streamlit-based chat interface for interacting with local Ollama mode
 - [Ollama](https://ollama.ai/) installed and running locally
 - At least one Ollama model installed
 
-## 🚀 Installation
+## Installation
 
-### 1. Clone the Repository
-
-```bash
-git clone <your-repo-url>
-cd ollama-streamlit-chatbot
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Or install manually:
+### 1. Install Dependencies
 
 ```bash
 pip install streamlit requests numpy sentence-transformers
 ```
 
-### 3. Install Ollama
+### 2. Install Ollama
 
 Download and install Ollama from [https://ollama.ai](https://ollama.ai)
 
-**Linux/Mac:**
-```bash
-curl -fsSL https://ollama.ai/install.sh | sh
-```
-
-**Windows:**
-Download the installer from the official website.
-
-### 4. Pull an Ollama Model
+### 3. Pull an Ollama Model
 
 ```bash
 # Recommended models based on your system:
